@@ -8,10 +8,14 @@ to train and write documentation.
 How to use PCC:
 
     python -m pcc
+    # or
+    pcc
 
 Test your code:
 
     python -m pcc --test
+    # or
+    pcc --test
 
 
 Features
