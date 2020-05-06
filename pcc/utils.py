@@ -2,8 +2,8 @@ import asyncio
 
 
 async def run_command(*args, **kwargs):
-    kwargs.setdefault("stdout", asyncio.subprocess.PIPE)
-    kwargs.setdefault("stderr", asyncio.subprocess.PIPE)
+    # kwargs.setdefault("stdout", asyncio.subprocess.PIPE)
+    # kwargs.setdefault("stderr", asyncio.subprocess.PIPE)
     print(f"[{' '.join(args)!r} started]")
     proc = await asyncio.create_subprocess_exec(*args, **kwargs)
 
