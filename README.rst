@@ -7,11 +7,15 @@ to train and write documentation.
 
 How to use PCC:
 
+.. code-block::
+
     python -m pcc
     # or
     pcc
 
 Test your code:
+
+.. code-block::
 
     python -m pcc --test
     # or
@@ -29,10 +33,14 @@ Installation
 
 Install PCC by cloning this repo and installing it:
 
+.. code-block::
+
     git clone git@github.com:bulv1ne/PCC.git
     pip install --user PCC
 
 Or installing through git+https immediately:
+
+.. code-block::
 
     pip install git+https://github.com/bulv1ne/PCC.git
 
