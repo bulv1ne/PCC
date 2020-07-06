@@ -5,7 +5,7 @@ description = "Python Clean Code"
 authors = ["Niels Lemmens <draso.odin@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 black = "^19.10b0"
 isort = "^5"
 
