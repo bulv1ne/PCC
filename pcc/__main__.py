@@ -7,10 +7,10 @@ from .utils import run_command
 
 async def run_pcc(test=False):
     if test:
-        await run_command("isort", "--check-only", "--diff", "--quiet")
+        await run_command("isort", "--check", "--diff", "--quiet", ".")
         await run_command("black", "--check", "--exclude", "node_modules", ".")
     else:
-        await run_command("isort", "-y")
+        await run_command("isort", ".")
         await run_command("black", "--exclude", "node_modules", ".")
 
 
