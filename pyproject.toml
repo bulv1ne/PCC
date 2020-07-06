@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pcc"
-version = "0.1.2"
+version = "0.2.0"
 description = "Python Clean Code"
 authors = ["Niels Lemmens <draso.odin@gmail.com>"]
 
